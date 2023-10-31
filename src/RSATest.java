@@ -26,6 +26,9 @@ public class RSATest {
 		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.139:4444"), caps);
 		driver.get("http://rahulshettyacademy.com");
 		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
 		driver.close();
 		
 	
